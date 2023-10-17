@@ -1,0 +1,27 @@
+.daohang{height:34px;background:#f2f2f2;color:#b3b3b3;font-size:14px;padding-left:11px;line-height:34px;}
+.daohang a{color:#b3b3b3;}
+.daohang a b{right: 0;color:#b3b3b3;font-style: normal;padding: 0 5px;}
+
+/*列表*/
+.liebiao p{padding-left:11px;}
+.cp-biaoti{overflow:hidden;line-height: 51px;height: 41px;}
+.liebiao p.cp-biaoti a span{padding-left: 12px;}
+.title-b a{max-width: 100%; font-size: 16px; color: #171616;display: inherit;white-space: nowrap; overflow: hidden; text-overflow: ellipsis; height: 38px; line-height: 49px;}
+.list-item{height:74px;border-top: 1px solid #e7e7e7;padding: 0 11px;font-size: 14px;}
+.title-b{overflow: hidden; font-size: 14px;}
+.daohang-bottom{position: relative;overflow:hidden;}
+.post-info a, .other a {color:#adadad;text-align: right;width: 27%;}
+.other {white-space:nowrap;color:#adadad;overflow:hidden;text-overflow:ellipsis;}
+.post-info .other {width: 73%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+
+/* 相册 */
+.album-list, .picture-list {margin: 3.75% 1.875% 0 1.875%;}
+.album-item, .picture-item {padding: 0 1.5% 0.21334rem; font-size: 14px; width: 50%; box-sizing: border-box; float: left;}
+.album-cover-link, .picture-wrap {display: block; position: relative; height: 0; padding-top: 75%;}
+.album-cover-link img, .picture-wrap img {width: 100%; position: absolute; top: 0; height: 100%;}
+.album-name {padding-top: 0.08rem; font-size: 16px; line-height: 1.5;font-weight: normal}
+.album-name a {color: #333;}
+
+.picture-title {overflow:hidden;border-bottom: 1px dashed #d4d4d4;margin:0 11px;}
+.picture-title h2 {font-size:16px;padding:26px 0 0 0;text-align: center;}
+.picture-title p {color:#aaaaaa;font-size:12px;padding:9px 0 21px 0;text-align:center;}

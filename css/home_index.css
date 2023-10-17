@@ -1,0 +1,251 @@
+:root {
+    --common-footer-bg: #f6f6f6;
+}
+.shenglve{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.shenglve2{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.common_title {
+    height: 4.8vw;
+    margin-bottom: 5.333vw;
+    padding: 0 4.267vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.common_title span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4.8vw;
+    color: var(--main-color);
+    font-size: 4.8vw;
+    font-weight: bold;
+    position: relative;
+}
+.common_title span::before{
+    display: block;
+    content: '';
+    width: 6.4vw;
+    height: 0.533vw;
+    background: #cccc;
+    position: absolute;
+    left: -8.533vw;
+    top: 1.867vw;
+}
+.common_title span::after{
+    display: block;
+    content: '';
+    width: 6.4vw;
+    height: 0.533vw;
+    background: #cccc;
+    position: absolute;
+    right: -8.533vw;
+    top: 1.867vw;
+}
+
+/* 查看更多 */
+.look_more {
+    display: block;
+    text-align: center;
+    width: 26.667vw;
+    height: 8vw;
+    line-height: 8vw;
+    margin: 5.333vw auto 6.667vw;
+    font-size: 3.2vw;
+    color: #fff;
+    background: var(--main-color);
+    border-radius: 1.333vw;
+}
+.background_bgc{margin: 0 auto;padding: 8vw 0 0;background: #fff;overflow: hidden;}
+.background_bgc:nth-of-type(2n+1){background: #F6F6F6;}
+
+/* 导航 */
+.inav_t {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.inav_t dl{
+    display: flex;
+    flex-wrap: wrap;
+}
+.inav_t dl dd {
+    flex: 0 0 25%;
+    height: 10.667vw;
+    background: var(--main-color);
+    border-right: 1px solid #fff;
+    border-top: 1px solid #fff;
+    box-sizing: border-box;
+}
+.inav_t dl dd:nth-of-type(1){
+    border-top-color: #0067d0;
+}
+.inav_t dl dd:nth-of-type(2){
+    border-top-color: #0067d0;
+}
+.inav_t dl dd:nth-of-type(3){
+    border-top-color: #0067d0;
+}
+.inav_t dl dd:nth-of-type(4){
+    border-top-color: #0067d0;
+}
+.inav_t dl dd:nth-of-type(4n){
+    border-right-color: #0067d0;
+}
+.inav_t dl dd a{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 3.733vw;
+}
+
+/* 轮播 */
+.shop-pics-container {
+    background: #fff;
+    padding: 0 !important;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.shop-pics-slide-img {
+    display: block;
+    width: 100vw;
+    height: 65vw;
+    object-fit: cover;
+    object-position: center center
+}
+
+.wrapper .item-list:last-child {
+    padding-bottom: 13.333vw
+}
+/* 服务项目 */
+.product-content-list{padding: 0 4.267vw;}
+.product_tiem{width: 40.533vw;display: block;float: left;margin-top: 4vw;margin-right: 10.4vw;}
+.product_tiem:nth-of-type(1){margin-top: 0;}
+.product_tiem:nth-of-type(2){margin-top: 0;}
+.product_tiem:nth-of-type(2n){margin-right: 0;}
+.product_img{width: 40.533vw;height: 27.733vw;border-radius: 1.333vw;border: 1px solid #ccc;box-sizing: border-box;overflow: hidden;}
+.product_img img{display: block;width: 100%;height: 100%;object-fit: cover;}
+.product_info{display: block;width: 100%;text-align: left;}
+.product_title{display: block;font-size: 3.733vw;color: #333;width: 100%;height: 4.8vw;line-height: 4.8vw;margin-top: 2.667vw;}
+.product_price{display: block;font-size: 3.2vw;color: var(--main-color);width: 100%;height: 4.267vw;line-height: 4.267vw;margin-top: 1.6vw;}
+
+/* 关于我们 */
+.about {
+    overflow: hidden;
+    padding: 8vw 0 6.667vw;
+}
+.shop-overview-info {
+    padding: 0 4.267vw;
+}
+
+.shop-overview-item {
+    display: flex;
+    margin-bottom: 3.333vw;
+}
+
+.shop-overview-item-name {
+    display: block;
+    font-size: 3.733vw;
+    line-height: 6vw;
+    color: #333;
+    margin-right: 7.467vw;
+}
+
+.shop-overview-item-value {
+    font-size: 3.733vw;
+    line-height: 6vw;
+    color: #333;
+    vertical-align: top;
+    font-weight: normal;
+}
+.shop-overview-item.zizhi .shop-overview-item-value{
+    display: flex;
+}
+.shop-overview-item.zizhi .shop-overview-item-value>div{
+    display: flex;
+    height: 6vw;
+    align-items: center;
+}
+.shop-overview-item.zizhi .shop-overview-item-value img{border: 0;width: 4vw;height: 4vw;}
+.shop-overview-item.zizhi .shop-overview-item-value .license_container img {width: 100%;}
+.shop-overview-item.zizhi .shop-overview-item-value .shop-overview-item-value-title{
+    font-size: 3.733vw;
+    margin-left: 1vw;
+}
+
+.field-detail-a{
+    display: none;
+}
+.detail_info_list_content{
+    width: 80%;
+}
+.show-field-detail-a{
+    font-size: 4vw;
+    line-height: 6vw;
+    vertical-align: top;
+}
+
+.shop-about-content {
+    padding: 0 4.267vw;
+}
+
+.shop-about-content p {
+    text-indent: 2em;
+    font-size: 3.733vw;
+    line-height: 6.4vw;
+    color: #333;
+}
+/* 新闻 */
+.article_list{padding: 0 4.267vw;}
+.article_list li{border: 0;margin-top: 4vw;}
+.article_list li:first-child{margin-top: 0;}
+.article_item{display: flex;width: 91.467vw;justify-content: space-between;}
+.article_date{width: 17.6vw;}
+.article_date span{color: #0067D0;display: block;width: 100%;text-align: left;}
+.article_date span:nth-of-type(1){font-size: 5.067vw;line-height: 5.867vw;}
+.article_date span:nth-of-type(2){font-size: 3.2vw;line-height: 4.267vw;}
+.article_info{width: 70.933vw;border-bottom: 1px dashed #ccc;padding-bottom: 4vw;}
+.article_info .article_title{font-size: 3.733vw;color: #333;line-height: 4.267vw;font-weight: normal;}
+.article_info .article_content{font-size: 3.2vw;color: #999;line-height: 4.8vw;margin-top: 1.067vw;}
+.article_list li:last-child .article_info{padding: 0;border-bottom: 0;}
+/* 服务优势 */
+.advantage{padding: 8vw 0;}
+.service_advantage_item{display: flex;width: 91.467vw;height: 20vw;background: url(../img/m2_advantage_item.png) center center no-repeat;background-size: contain;margin: 2.667vw auto 0;flex-direction: column;padding-left: 8.533vw;box-sizing: border-box;}
+.service_advantage_item:first-child{margin-top: 0;}
+.service_advantage_item_index{width: 80vw;font-size: 3.733vw;font-weight: bold;color: #333;margin-top: 2.133vw;}
+.service_advantage_item_title{width: 80vw;font-size: 3.2vw;color: #333;line-height: 4.8vw;margin-top: 0.533vw;}
+/* 案例展示 */
+.album_list_box{display: flex;flex-wrap: wrap;justify-content: space-between;padding: 0 4.267vw;}
+.album_list_item{width: 41.6vw;height: 39.467vw;border-radius: 0;border: 0.267vw solid #ccc;margin: 0;margin-top: 4vw;border-radius: 1.333vw;overflow: hidden;position: relative;}
+.album_list_item:nth-of-type(1){margin-top: 0;}
+.album_list_item:nth-of-type(2){margin-top: 0;}
+.album_link{display: block;width: 100%;height: 100%;}
+.album_img{width: 100%;height: 100%;}
+.album_img img{width: 100%;height: 100%;display: block;object-fit: cover;}
+.album_item_info{width: 100%;height: 8vw;line-height: 8vw;display: block;position: absolute;left: 0;bottom: 0;padding: 0 2.667vw;box-sizing: border-box;background: rgba(39, 39, 39, 0.6);text-align: center;}
+.album_item_info p{font-size: 3.733vw;color: #fff;display: block;width: 100%;}
+/* 服务流程 */
+.process_item_content{display: flex;flex-wrap: wrap;padding: 0 4.267vw;}
+.process_box{width: 22.4vw;height: 20.8vw;background: url(../img/m2_process_item.png) center center no-repeat;background-size: contain;margin-left: 12vw;margin-top: 5.333vw;position: relative;}
+.process_box:nth-of-type(1){margin-top: 0;}
+.process_box:nth-of-type(2){margin-top: 0;}
+.process_box:nth-of-type(3){margin-top: 0;}
+.process_box:nth-of-type(3n+1){margin-left: 0;}
+.process_index{display: block;width: 100%;height: 6.4vw;line-height: 6.4vw;text-align: center;font-size: 4.8vw;color: #fff;margin-top: 2.667vw;}
+.process_step{display: flex;width: 16vw;margin: 0 auto;align-items: center;justify-content: center;height: 11.733vw;padding: 0 1.067vw;font-size: 3.2vw;}
+.process_step span{font-size: 3.2vw;color: #333;line-height: 4.8vw;text-align: center;}
+.process_box::before{display: block;content: '';width: 3.2vw;height: 4.8vw;background: url(../img/m2_process_item_arr.png) center center no-repeat;background-size: contain;position: absolute;top: 8vw;left: -7.467vw;}
+.process_box:nth-of-type(3n+1)::before{display: none;}

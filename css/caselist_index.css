@@ -1,0 +1,50 @@
+body {
+    background: #E8E8E8;
+}
+
+/* 面包屑 */
+.shop-bread-nav-wrapper {
+    margin: 0;
+}
+
+.shop-bread-nav {
+    background: transparent;
+}
+
+.shop-bread-nav-item, .shop-bread-nav-separator {
+    color: #999;
+}
+
+.shop-bread-nav {
+    padding: 0;
+}
+
+
+.shop-product-list-item{
+    text-align: center;
+}
+.shop-product-link{display: inline-block;width: 44.533vw;margin: 0 auto;padding: 0;}
+.shop-product-list-box {
+    padding: 0 2.267vw;
+}
+.shop-product-cover-wrapper{
+    padding-top: 0;
+    width: 44.533vw;
+    height: 57.067vw;
+}
+.album_cont{
+    background-color: rgba(30, 30, 30, 0.6);
+    color: #fff;
+    font-size: 3.2vw;
+    height: 4.267vw;
+    line-height: 4.267vw;
+    padding: 0 1.333vw;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.shop-product-list{margin-top: 0;padding: 4.267vw 0 0.533vw;}
+.shop-product-item-title{
+    font-size: 3.733vw;
+    padding: 1.6vw 0 2.667vw;
+}

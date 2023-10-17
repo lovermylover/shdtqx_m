@@ -1,0 +1,108 @@
+body {
+    background: #E8E8E8;
+}
+
+/* 面包屑 */
+.shop-bread-nav-wrapper {
+    margin: 0;
+}
+
+.shop-bread-nav {
+    background: transparent;
+}
+
+.shop-bread-nav-item, .shop-bread-nav-separator {
+    color: #999;
+}
+
+.shop-bread-nav {
+    padding: 0;
+}
+
+/* 商家介绍 */
+.shop-content-title {
+    font-size: 4.8vw;
+    color: #333;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 2.667vw;
+}
+
+.shop-content-box {
+    background: #FFFFFF;
+    padding: 5.333vw 0 4.8vw;
+}
+.shop-content-text{
+    padding: 0 4.267vw;
+}
+
+.format p{
+    text-indent: 2em;
+}
+/*店铺关于我们*缺省*/
+.shop-about-empty {
+    background: #FFFFFF;
+    margin-top: 2.667vw;
+    padding: 16vw 4.267vw 32.533vw;
+}
+
+.shop-about-empty-sign {
+    width: 27.2vw;
+    height: 18.667vw;
+    background: url(/image/shopmobile/shop_list_empty.png) no-repeat;
+    background-size: contain;
+    margin: 0 auto 6.933vw;
+}
+
+.shop-about-empty-text {
+    font-size: 3.733vw;
+    line-height: 3.733vw;
+    color: #999999;
+    text-align: center;
+    overflow: visible;
+}
+
+/*店铺关于我们-证书*/
+.shop-content-src-box {
+    margin-bottom: 2.667vw;
+}
+
+.shop-content-src p {
+    text-align: center;
+}
+
+.shop-content-src-div {
+    width: 50%;
+    float: left;
+    height: 49.333vw;
+    text-align: center;
+    margin-bottom: 4vw;
+    margin-top: 4vw;
+}
+
+.shop-content-src-div p {
+    margin-top: 4vw;
+}
+
+.shop-content-src-img-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40.533vw;
+    width: 40.533vw;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+
+.shop-content-src-img-div img {
+    max-width: 40vw;
+    max-height: 40vw;
+    text-align: center;
+}
+/* 服务优势 */
+.advantage{padding: 8vw 0;margin-top: 10px;}
+.service_advantage_item{display: flex;width: 91.467vw;height: 20vw;background: url(../img/m2_advantage_item.png) center center no-repeat;background-size: contain;margin: 2.667vw auto 0;flex-direction: column;padding-left: 8.533vw;box-sizing: border-box;}
+.service_advantage_item:first-child{margin-top: 0;}
+.service_advantage_item_index{width: 80vw;font-size: 3.733vw;font-weight: bold;color: #333;margin-top: 2.133vw;}
+.service_advantage_item_title{width: 80vw;font-size: 3.2vw;color: #333;line-height: 4.8vw;margin-top: 0.533vw;}

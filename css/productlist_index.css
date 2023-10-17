@@ -1,0 +1,20 @@
+body{background: #E8E8E8;}
+/* 面包屑 */
+.shop-bread-nav-wrapper{margin: 0;}
+.shop-bread-nav{background: transparent;}
+.shop-bread-nav-item, .shop-bread-nav-separator{color: #999;}
+.shop-bread-nav{padding: 0;}
+/*店铺产品列表*/
+.shop-product-list{background: #FFFFFF;}
+.shop-product-link{display: block;padding: 16px 3.7333%;overflow: visible;position: relative;}
+.shop-product-link:before{content: "";display: block;width: 200%;height: 1px;background: #E5E5E5;position: absolute;left: 0;top: 0;-webkit-transform: scale(0.5, 0.5);transform: scale(0.5, 0.5);-webkit-transform-origin: 0 0;transform-origin: 0 0;}
+.shop-product-item:first-child .shop-product-link:before{display: none;}
+.shop-product-cover{width: 89px;height: 60px;margin: 2px 14px 2px 0;border-radius: 3px;object-fit: cover;object-position: center center;position: absolute;left: 14px;top: 16px;border: 1px solid #E5E5E5;box-sizing: border-box;}
+.shop-product-overview{min-height: 64px;overflow: hidden;width: 100%;padding-left: 103px;box-sizing: border-box;}
+.shop-product-title{font-size: 3.733vw;line-height: 20px;color: #333333;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;font-weight: bold;}
+.shop-product-intro{font-size: 3.2vw;line-height: 16px;color: #999999;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;margin-top: 6px;}
+.shop-product-price{font-size: 3.2vw;color: var(--primary-color)!important;margin-top: 6px}
+/*店铺产品列表*缺省*/
+.shop-product-empty{background: #FFFFFF;padding: 60px 16px 122px;}
+.shop-product-empty-sign{width: 102px;height: 70px;background: url(/image/shopmobile/shop_list_empty.png) no-repeat;background-size: contain;margin: 0 auto 26px;}
+.shop-product-empty-text{font-size: 14px;line-height: 14px;color: #999999;text-align: center;overflow: visible;}

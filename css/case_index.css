@@ -1,0 +1,29 @@
+body {
+    background: #E8E8E8;
+}
+
+/* 面包屑 */
+.shop-bread-nav-wrapper {
+    margin: 0;
+}
+
+.shop-bread-nav {
+    background: transparent;
+}
+
+.shop-bread-nav-item, .shop-bread-nav-separator {
+    color: #999;
+    white-space: nowrap;
+}
+
+.shop-bread-nav {
+    padding: 0;
+}
+
+/* 相册 */
+.shop-product-list {
+    margin: 0;
+    border-radius: 0;
+}
+.shop-product-cover-wrapper{border: 1px solid #E5E5E5;border-radius: 1.333vw;padding-top: 0;width: 44vw;height: 55.467vw;margin: 0 auto;}
+.shop-product-cover{position: relative;}

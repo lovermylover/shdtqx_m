@@ -1,0 +1,151 @@
+:root {
+    --primary-color: #0067d0;
+}
+body {
+    background: #E8E8E8;
+}
+
+/* 面包屑 */
+.shop-bread-nav-wrapper {
+    margin: 0;
+}
+
+.shop-bread-nav {
+    background: transparent;
+}
+
+.shop-bread-nav-item, .shop-bread-nav-separator {
+    color: #999;
+}
+
+.shop-bread-nav {
+    padding: 0;
+}
+
+/* 产品详情 */
+
+.shop-product-list {
+    background: #FFFFFF;
+    margin-top: 2.667vw;
+    padding: 4vw 0 0.8vw;
+}
+
+.shop-product-title {
+    display: table;
+    width: 100%;
+    padding-right: 5.333vw;
+    box-sizing: border-box;
+}
+
+.shop-title {
+    font-size: 4.8vw;
+    line-height: 8vw;
+    color: #333333;
+    font-weight: bold;
+    padding: 0 5.333vw;
+}
+
+.shop-product-next {
+    display: table-cell;
+    width: 16.533vw;
+    overflow: visible;
+    vertical-align: middle;
+    padding-right: 0;
+}
+
+.shop-product-next-text {
+    display: table-cell;
+    font-size: 3.2vw;
+    line-height: 4.8vw;
+    color: #999999;
+    vertical-align: middle;
+    padding-right: 1.6vw;
+    white-space: nowrap;
+}
+
+.shop-product-next-icon {
+    display: table-cell;
+    width: 2.133vw;
+    height: 3.733vw;
+    background: url(../img/next_icon.png) no-repeat;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto;
+    background-size: contain;
+    background-position: center;
+    vertical-align: middle;
+}
+
+.shop-product-list-box {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 2.6667% 0;
+}
+
+.shop-product-list-item {
+    width: 50%;
+}
+
+.fl {
+    float: left;
+}
+
+.shop-product-link {
+    display: block;
+    padding: 5px 5.6338% 0;
+    box-sizing: border-box;
+}
+
+.shop-product-cover-wrapper {
+    display: block;
+    width: 100%;
+    padding-top: 41.867vw;
+    position: relative;
+    overflow: visible;
+}
+
+.shop-product-cover {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 5px;
+    object-fit: cover;
+    object-position: center center;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+}
+
+.shop-product-item-title {
+    font-size: 3.733vw;
+    line-height: 6.4vw;
+    color: #333333;
+    padding: 1.6vw 0 2.667vw;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
+.shop-article-detail-img {
+    padding: 5.333vw 5.333vw 0 5.333vw;
+    line-height: 0;
+}
+
+.shop-article-detail-img img {
+    width: 100%;
+    margin-bottom: 2.667vw;
+}
+.shop-product-detail {
+    margin: 0;
+    border-radius: 0;
+}
+.shop-product-detail-content {
+    padding: 0 4.533vw !important;
+}
+.shop-product-list-item {
+    margin-bottom: 0;
+    box-shadow: none;
+}

@@ -1,0 +1,14 @@
+.shop-title{font-size: 18px;line-height: 30px;color: #333333;font-weight: bold;padding: 0 4.2667%;}
+.shop-overview-box{background: #FFFFFF;margin-top: 10px;margin: 0 2.266vw;border-radius: 10px;}
+.shop-overview-info{padding: 10px 2.933vw;}
+.shop-overview-item{display: table-row;line-height: 40px}
+.shop-overview-item-name, .shop-overview-item-value{display: table-cell;font-size: 16px;line-height: 40px;vertical-align: top;}
+.shop-overview-item-name{width: 90px;color: #999999;padding-right: 20px;box-sizing: border-box;}
+.shop-overview-item-name{text-align-last: justify; text-align: justify;}
+.shop-overview-item-name:after{display: inline-block ; content: ''; padding-left: 100%; position: absolute;} 
+.shop-overview-item-value{color: #333333;display: inline-block}
+.content_name{color: #999;margin-left: 10px}
+.shop-overview-item-value-pre-wrap{white-space: pre-wrap;}
+.phone_color{color: blue !important;}
+.weixin_src{width: 165px;height: 165px;margin-top: 10px;}
+.canCopy{user-select: text;-webkit-user-select: text;}

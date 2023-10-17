@@ -1,0 +1,118 @@
+body {
+    background: #E8E8E8;
+}
+
+/* 面包屑 */
+.shop-bread-nav-wrapper {
+    margin: 0;
+}
+
+.shop-bread-nav {
+    background: transparent;
+}
+
+.shop-bread-nav-item, .shop-bread-nav-separator {
+    color: #999;
+}
+
+.shop-bread-nav {
+    padding: 0;
+}
+
+/*文章新闻*/
+.shop-product-list {
+    background: #FFFFFF;
+}
+
+.shop-product-link {
+    display: block;
+    padding: 4.267vw 3.7333%;
+    overflow: visible;
+    position: relative;
+    padding-left: 4.533vw !important;
+    padding-right: 4.533vw !important;
+}
+
+.shop-product-link:before {
+    content: "";
+    display: block;
+    width: 200%;
+    height: 1px;
+    background: #E5E5E5;
+    position: absolute;
+    left: 0;
+    top: 0;
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+
+.shop-product-item:first-child .shop-product-link:before {
+    display: none;
+}
+
+.shop-product-cover {
+    width: 23.733vw;
+    height: 16vw;
+    margin: 0.533vw 3.733vw 0.533vw 0;
+    border-radius: 0.8vw;
+    object-fit: cover;
+    object-position: center center;
+    position: absolute;
+    left: 3.733vw;
+    top: 4.267vw;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+}
+
+.shop-product-overview {
+    min-height: 17.067vw;
+    overflow: hidden;
+    width: 100%;
+    padding-left: 27.467vw;
+    box-sizing: border-box;
+}
+
+.shop-product-title {
+    font-size: 3.733vw;
+    line-height: 5.333vw;
+    color: #333333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    margin-top: 1.6vw;
+}
+
+.shop-product-intro {
+    font-size: 3.2vw;
+    line-height: 4.8vw;
+    color: #999999;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 1.6vw;
+}
+
+/*店铺产品列表*缺省*/
+.shop-product-empty {
+    background: #FFFFFF;
+    padding: 16vw 4.267vw 32.533vw;
+}
+
+.shop-product-empty-sign {
+    width: 27.2vw;
+    height: 18.667vw;
+    background: url(/image/shopmobile/shop_list_empty.png) no-repeat;
+    background-size: contain;
+    margin: 0 auto 6.933vw;
+}
+
+.shop-product-empty-text {
+    font-size: 3.733vw;
+    line-height: 3.733vw;
+    color: #999999;
+    text-align: center;
+    overflow: visible;
+}

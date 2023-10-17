@@ -1,0 +1,25 @@
+/**
+ *@author chenjiaguang
+ *触屏版店铺首页
+ *2019.11.22
+ */
+/**/
+
+
+/*服务项目*/
+.shop-product-list{background: #FFFFFF;margin-top: 10px;padding: 15px 0 3px;}
+.shop-product-title{display: table;width: 100%;padding-right: 4.2667%;box-sizing: border-box;}
+.shop-product-next{display: table-cell;width: 62px;overflow: visible;vertical-align: middle;}
+.shop-product-next-content{display: table;}
+.shop-product-next-text{display: table-cell;font-size: 12px;line-height: 18px;color: #999999;vertical-align: middle;padding-right: 6px;white-space: nowrap;}
+.shop-product-next-icon{display: table-cell;width: 8px;height: 14px;background: url(/image/mobile/public/next_icon.png) no-repeat;background-size: contain;background-position: center;vertical-align: middle}
+.shop-product-list-box{width: 100%;box-sizing: border-box;padding: 12px 2.6667% 0;}
+.shop-product-list-item{width: 50%;}
+.shop-product-link{display: block;padding: 5px 5.6338% 0;box-sizing: border-box;}
+.shop-product-cover-wrapper{display: block;width: 100%;padding-top: 66.88%;position: relative;overflow: visible;}
+.shop-product-cover{display: block;position: absolute;width: 100%;height: 100%;left: 0;top: 0;border-radius: 5px;object-fit: cover;object-position: center center;border: 1px solid #E5E5E5;box-sizing: border-box;}
+.shop-product-item-title{font-size: 16px;line-height: 24px;color: #333333;padding: 14px 0;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;text-align: center;}
+
+.shop-product-empty{background: #FFFFFF;margin-top: 10px;padding: 60px 16px 122px;}
+.shop-product-empty-sign{width: 102px;height: 70px;background: url(/image/shopmobile/shop_list_empty.png) no-repeat;background-size: contain;margin: 0 auto 26px;}
+.shop-product-empty-text{font-size: 14px;line-height: 14px;color: #999999;text-align: center;overflow: visible;}

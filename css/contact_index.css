@@ -1,0 +1,184 @@
+body {
+    background: #E8E8E8;
+}
+
+/* 面包屑 */
+.shop-bread-nav-wrapper {
+    margin: 0;
+}
+
+.shop-bread-nav {
+    background: transparent;
+}
+
+.shop-bread-nav-item, .shop-bread-nav-separator {
+    color: #999;
+}
+
+.shop-bread-nav {
+    padding: 0;
+}
+
+.shop-title {
+    font-size: 4.8vw;
+    line-height: 8vw;
+    color: #333333;
+    font-weight: bold;
+    padding: 0 4.2667%;
+}
+
+.shop-overview-box {
+    background: #FFFFFF;
+    margin-top: 2.667vw;
+    padding: 5.333vw 0 4.8vw;
+}
+
+.shop-content-text{
+    padding: 0 4.267vw;
+}
+.shop-content-title {
+    font-size: 4.8vw;
+    color: #333;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 1.333vw;
+}
+
+.shop-overview-info {
+    padding: 0 4.533vw;
+}
+.shop-overview-item {
+    display: table-row;
+    line-height: 10.667vw
+}
+
+.shop-overview-item-name, .shop-overview-item-value {
+    display: table-cell;
+    font-size: 4.267vw;
+    line-height: 7.467vw;
+    padding: 1.067vw 0;
+    vertical-align: top;
+}
+
+.shop-overview-item-name {
+    min-width: 16vw;
+    color: #999999;
+    padding-right: 5.333vw;
+    box-sizing: border-box;
+    white-space: nowrap;
+}
+
+.shop-overview-item-value {
+    color: #333333;
+    display: inline-block
+}
+
+.content_name {
+    color: #999;
+    margin-left: 2.667vw
+}
+
+.shop-overview-item-value-pre-wrap {
+    white-space: pre-wrap;
+}
+
+.shop-overview-box {
+    margin: 0;
+    border-radius: 0;
+}
+.canCopy .shop-bottom-call-btn2{
+    background-position: center;
+    background: var(--main-color);
+    border-radius: 5.333vw;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 0;
+    color: #FFFFFF;
+    text-align: center;
+}
+.canCopy .shop-bottom-call-icon2{
+    display: inline-block;
+    background: url(../img/icon_bottom_phone22.png) no-repeat;
+    background-size: contain;
+    margin-right: 3.733vw;
+    vertical-align: middle;
+}
+.canCopy .shop-bottom-call-text2{
+    vertical-align: middle;
+}
+
+/*新版分页 2019-11-15*/
+.fenye {
+    height: 10.667vw;
+    padding: 0;
+    font-size: 0;
+    white-space: nowrap;
+    background: #FFFFFF;
+}
+
+.fenye a, .selDiv {
+    display: inline-block;
+    width: 33.33%;
+    font-size: 3.2vw;
+    height: 10.667vw;
+    line-height: 10.667vw;
+    text-align: center;
+    color: #666666;
+}
+
+.fenye a.disabled {
+    color: #999999;
+}
+
+.selDiv {
+    position: relative;
+}
+
+.selDiv i {
+    font-style: normal;
+}
+
+.selectDiv {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    left: 10%;
+    top: 10%;
+    opacity: 0;
+}
+
+.fenye .d-arrow {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    box-sizing: content-box;
+    margin: 0.8vw 0 0 1.067vw;
+    vertical-align: middle;
+    border-style: solid;
+    border-color: #919191 transparent transparent transparent;
+    border-width: 1.333vw;
+}
+
+section.fenye {
+    margin: 0;
+    border-top: 1px solid #E5E5E5;
+}
+
+.fenye a, .selDiv {
+    border-radius: 0;
+    box-shadow: none;
+}
+/* 服务流程 */
+.process{margin-top: 10px;}
+.process .shop-content-title{margin-bottom: 2.667vw;}
+.process_item_content{display: flex;flex-wrap: wrap;padding: 0 4.267vw;}
+.process_box{width: 22.4vw;height: 20.8vw;background: url(../img/m2_process_item.png) center center no-repeat;background-size: contain;margin-left: 12vw;margin-top: 5.333vw;position: relative;}
+.process_box:nth-of-type(1){margin-top: 0;}
+.process_box:nth-of-type(2){margin-top: 0;}
+.process_box:nth-of-type(3){margin-top: 0;}
+.process_box:nth-of-type(3n+1){margin-left: 0;}
+.process_index{display: block;width: 100%;height: 6.4vw;line-height: 6.4vw;text-align: center;font-size: 4.8vw;color: #fff;margin-top: 2.667vw;}
+.process_step{display: flex;width: 60px;margin: 0 auto;align-items: center;justify-content: center;height: 11.733vw;padding: 0 1.067vw;font-size: 12px;}
+.process_step span{font-size: 3.2vw;color: #333;line-height: 4.8vw;text-align: center;}
+.process_box::before{display: block;content: '';width: 3.2vw;height: 4.8vw;background: url(../img/m2_process_item_arr.png) center center no-repeat;background-size: contain;position: absolute;top: 8vw;left: -7.467vw;}
+.process_box:nth-of-type(3n+1)::before{display: none;}
